@@ -30,4 +30,4 @@ An Expense Tracker is a web application that allows users to record their expens
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/expense-tracker.git
+   git clone https://github.com/AjeetKu143/Expense_Tracker.git
