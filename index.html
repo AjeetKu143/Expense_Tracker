@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <link rel="icon" href="Expense Tracker.png" type="icon" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="ex">Expense Tracker</h1>
+
+        <!-- Form to add expenses -->
+        <div class="expense-form">
+
+            <input type="text" id="item" placeholder="Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button id="addExpense">Add Expense</button>
+        </div>
+
+        <!-- Expense List -->
+        <div class="expense-list">
+            <h2>Your Expenses</h2>
+            <ul id="expenseList"></ul>
+        </div>
+
+        <!-- Total Display -->
+        <div class="total">
+            <h3>Total Expenses: $<span id="totalAmount">0</span></h3>
+        </div>
+
+        <!-- Chart for Expenses -->
+        <div class="chart-container">
+            <h2>Monthly Expense Chart</h2>
+            <canvas id="expenseChart"></canvas>
+        </div>
+
+        <!-- Button to Export Excel -->
+        <div class="export-section">
+            <button id="exportExcel">Download as Sheet</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
