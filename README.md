@@ -1,5 +1,6 @@
 # Expense Tracker
 
+[![Demo](https://img.shields.io/badge/Demo-ExpenseTracker-blue)](https://ajeetku143.github.io/Expense_Tracker/)
 An Expense Tracker is a web application that allows users to record their expenses easily. It features a user-friendly interface to add, view, and export expenses, making personal finance management simple and efficient.
 
 ## Features
